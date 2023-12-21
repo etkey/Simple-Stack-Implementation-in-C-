@@ -26,13 +26,13 @@ The provided C code defines a stack structure using a linked list and includes f
 3. Use the provided stack functions in your code for stack operations.
 
 ## Functions
-`Stack *push(Stack *top, int push_data)`: Adds a new element to the top of the stack.
-`Stack *pop(Stack *top)`: Removes the element from the top of the stack.
-`void display_stack(Stack *top)`: Displays all elements in the stack.
-`void free_stack(Stack *top)`: Frees the memory allocated for all stack elements.
-`int is_empty(Stack *top)`: Checks if the stack is empty.
-`int peek(Stack *top)`: Returns the value at the top of the stack without removing it.
-`int size(Stack *top)`: Returns the number of elements in the stack.
+-`Stack *push(Stack *top, int push_data)`: Adds a new element to the top of the stack.
+-`Stack *pop(Stack *top)`: Removes the element from the top of the stack.
+-`void display_stack(Stack *top)`: Displays all elements in the stack.
+-`void free_stack(Stack *top)`: Frees the memory allocated for all stack elements.
+-`int is_empty(Stack *top)`: Checks if the stack is empty.
+-`int peek(Stack *top)`: Returns the value at the top of the stack without removing it.
+-`int size(Stack *top)`: Returns the number of elements in the stack.
 
 ## Sample Test
 
